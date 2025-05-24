@@ -1,4 +1,4 @@
-FASTER_MODELS = {
+MODELS = {
     "huawei-noah/TinyBERT_General_4L_312D",  
     # "distilbert-base-uncased",
     # "distilroberta-base",  
@@ -7,8 +7,8 @@ FASTER_MODELS = {
 }
 
 DATASETS = {
-    "HC3": ("Hello-SimpleAI/HC3", "all"),
-    "AI-and-Human-Generated-Text": "Ateeqq/AI-and-Human-Generated-Text",
+    # "HC3": ("Hello-SimpleAI/HC3", "all"),
+    # "AI-and-Human-Generated-Text": "Ateeqq/AI-and-Human-Generated-Text",
     "ai-human-gen": "likhithasapu/ai-human-gen",
 }
 
@@ -74,6 +74,13 @@ TRAINING_PRESETS = {
         "max_length": 128,
         "learning_rate": 2e-5,
         "weight_decay": 0.1
+    },
+    "high_performance": {
+        "batch_size": 32,
+        "epochs": 3,
+        "max_length": 256,
+        "learning_rate": 3e-5,
+        "weight_decay": 0.01
     },
     "quick_test": {
         "batch_size": 8,
