@@ -1,0 +1,13 @@
+{
+  "HC3": {
+    "huawei-noah/TinyBERT_General_4L_312D": {
+      "eval_loss": 0.023133043199777603,
+      "eval_accuracy": 0.994733762434172,
+      "eval_f1": 0.9947332503054338,
+      "eval_runtime": 22.4873,
+      "eval_samples_per_second": 759.986,
+      "eval_steps_per_second": 47.538,
+      "epoch": 3.0
+    }
+  }
+}

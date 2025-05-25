@@ -1,0 +1,13 @@
+{
+  "gender_hate": {
+    "distilroberta-base": {
+      "eval_loss": 0.48399144411087036,
+      "eval_accuracy": 0.812,
+      "eval_f1": 0.8120481956797387,
+      "eval_runtime": 2.9777,
+      "eval_samples_per_second": 671.66,
+      "eval_steps_per_second": 41.979,
+      "epoch": 3.0
+    }
+  }
+}

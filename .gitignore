@@ -1,4 +1,9 @@
-src/results/
+results/distilbert-base-uncased
+results/distilroberta-base
+results/google-electra-small-discriminator
+results/GroNLP-hateBERT
+results/huawei-noah-TinyBERT_General_4L_312D
+results/roberta-base
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

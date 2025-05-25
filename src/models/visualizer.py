@@ -56,6 +56,8 @@ class ResultVisualizer:
             for model, metrics in models.items():
                 model_names.append(model)
                 val = metrics.get(f"eval_{metric}")
+                if val is None:
+                    val = 0 
                 metric_values.append(val)
 
             # Shift each dataset group for grouped bars

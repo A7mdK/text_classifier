@@ -1,0 +1,13 @@
+{
+  "bad_hate": {
+    "google/electra-small-discriminator": {
+      "eval_loss": 0.19369688630104065,
+      "eval_accuracy": 0.9372576665491716,
+      "eval_f1": 0.9333864031568393,
+      "eval_runtime": 3.406,
+      "eval_samples_per_second": 832.943,
+      "eval_steps_per_second": 52.261,
+      "epoch": 3.0
+    }
+  }
+}

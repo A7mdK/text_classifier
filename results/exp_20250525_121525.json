@@ -1,0 +1,13 @@
+{
+  "bad_hate": {
+    "GroNLP/hateBERT": {
+      "eval_loss": 0.16774587333202362,
+      "eval_accuracy": 0.9481847021501586,
+      "eval_f1": 0.9459599376693225,
+      "eval_runtime": 7.967,
+      "eval_samples_per_second": 356.093,
+      "eval_steps_per_second": 22.342,
+      "epoch": 3.0
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "bad_hate": {
+    "roberta-base": {
+      "eval_loss": 0.15270015597343445,
+      "eval_accuracy": 0.9520620373634121,
+      "eval_f1": 0.9467727306225185,
+      "eval_runtime": 7.4735,
+      "eval_samples_per_second": 379.608,
+      "eval_steps_per_second": 23.818,
+      "epoch": 3.0
+    }
+  }
+}

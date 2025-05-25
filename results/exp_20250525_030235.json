@@ -1,0 +1,13 @@
+{
+  "bad_hate": {
+    "distilbert-base-uncased": {
+      "eval_loss": 0.16767020523548126,
+      "eval_accuracy": 0.937962636587945,
+      "eval_f1": 0.9336842226091935,
+      "eval_runtime": 4.4787,
+      "eval_samples_per_second": 633.444,
+      "eval_steps_per_second": 39.744,
+      "epoch": 3.0
+    }
+  }
+}

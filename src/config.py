@@ -1,15 +1,24 @@
 MODELS = {
-    "huawei-noah/TinyBERT_General_4L_312D",  
+     "huawei-noah/TinyBERT_General_4L_312D",  
     # "distilbert-base-uncased",
     # "distilroberta-base",  
     # "google/electra-small-discriminator",  
-    # "albert-tiny"  
+    # "albert-tiny"
+
+    # "roberta-base"  
+    # "GroNLP/hateBERT"
 }
 
 DATASETS = {
+    ### Human Written or AI Generated
     # "HC3": ("Hello-SimpleAI/HC3", "all"),
     # "AI-and-Human-Generated-Text": "Ateeqq/AI-and-Human-Generated-Text",
-    "ai-human-gen": "likhithasapu/ai-human-gen",
+    # "ai-human-gen": "likhithasapu/ai-human-gen",
+    #----------------------------------------------------------------------
+    ### Hate Speech and Offensive Language Detection
+    "davidson_offensive": "tdavidson/hate_speech_offensive",
+    # "gender_hate": "ctoraman/gender-hate-speech",
+    # "bad_hate": "badmatr11x/hate-offensive-speech"
 }
 
 RESULT_CONFIG = {
@@ -88,5 +97,17 @@ TRAINING_PRESETS = {
         "learning_rate": 2e-5,
         "weight_decay": 0.01,
         "max_length": 64
+    },
+    "special": {
+        "batch_size": 32,
+        "epochs": 3,
+        "max_length": 512,
+        "learning_rate": 2e-5,
+        "weight_decay": 0.01,
+        #"metric_for_best_model": "eval_f1",
+        #"lr_scheduler_type": "linear",  # or "cosine"
+        #"warmup_ratio": 0.1,
+        # "early_stopping_patience": 1,
+        # "metric": "f1_macro"
     },
 }

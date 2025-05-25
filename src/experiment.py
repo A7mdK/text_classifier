@@ -25,7 +25,7 @@ def run_experiment(preset: str = "default", experiment_name: str = None, inspect
         for model in MODELS:
             print(f"\n🚀 Training {model} on {ds_name}")
             try:
-                metrics = ModelTrainer.train(model, dataset, inspect=inspect, **experiment_args)
+                metrics = ModelTrainer.train(model, dataset, inspect=inspect, **experiment_args, num_labels=3)
                 results[ds_name][model] = metrics
                 print(f"✅ {model}: Acc={metrics['eval_accuracy']:.2f}, F1={metrics['eval_f1']:.2f}")
             except Exception as e:
@@ -41,4 +41,4 @@ def run_experiment(preset: str = "default", experiment_name: str = None, inspect
     return results
 
 if __name__ == "__main__":
-    run_experiment(preset="high_performance", inspect=False)
+    run_experiment(preset="special", inspect=False)

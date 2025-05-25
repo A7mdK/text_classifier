@@ -1,0 +1,13 @@
+{
+  "gender_hate": {
+    "GroNLP/hateBERT": {
+      "eval_loss": 0.4655872881412506,
+      "eval_accuracy": 0.8115,
+      "eval_f1": 0.8093006190161228,
+      "eval_runtime": 7.043,
+      "eval_samples_per_second": 283.971,
+      "eval_steps_per_second": 17.748,
+      "epoch": 3.0
+    }
+  }
+}

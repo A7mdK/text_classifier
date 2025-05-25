@@ -1,0 +1,13 @@
+{
+  "davidson_offensive": {
+    "roberta-base": {
+      "eval_loss": 0.24716201424598694,
+      "eval_accuracy": 0.9221303207585233,
+      "eval_f1": 0.9079525137999543,
+      "eval_runtime": 13.15,
+      "eval_samples_per_second": 376.958,
+      "eval_steps_per_second": 23.574,
+      "epoch": 3.0
+    }
+  }
+}

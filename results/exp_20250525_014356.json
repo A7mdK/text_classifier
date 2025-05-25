@@ -1,0 +1,13 @@
+{
+  "gender_hate": {
+    "distilbert-base-uncased": {
+      "eval_loss": 0.47517773509025574,
+      "eval_accuracy": 0.813,
+      "eval_f1": 0.8070323769171984,
+      "eval_runtime": 2.9292,
+      "eval_samples_per_second": 682.779,
+      "eval_steps_per_second": 42.674,
+      "epoch": 3.0
+    }
+  }
+}

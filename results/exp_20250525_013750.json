@@ -1,0 +1,13 @@
+{
+  "gender_hate": {
+    "huawei-noah/TinyBERT_General_4L_312D": {
+      "eval_loss": 0.5195615291595459,
+      "eval_accuracy": 0.8005,
+      "eval_f1": 0.7997061794420368,
+      "eval_runtime": 2.8198,
+      "eval_samples_per_second": 709.265,
+      "eval_steps_per_second": 44.329,
+      "epoch": 3.0
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "HC3": {
+    "distilbert-base-uncased": {
+      "eval_loss": 0.0166043508797884,
+      "eval_accuracy": 0.9967232299590404,
+      "eval_f1": 0.9967268560672189,
+      "eval_runtime": 26.8778,
+      "eval_samples_per_second": 635.841,
+      "eval_steps_per_second": 39.773,
+      "epoch": 3.0
+    }
+  }
+}

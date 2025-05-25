@@ -1,0 +1,13 @@
+{
+  "davidson_offensive": {
+    "distilroberta-base": {
+      "eval_loss": 0.23011638224124908,
+      "eval_accuracy": 0.9245511398022997,
+      "eval_f1": 0.9163749690072672,
+      "eval_runtime": 7.6729,
+      "eval_samples_per_second": 646.041,
+      "eval_steps_per_second": 40.402,
+      "epoch": 3.0
+    }
+  }
+}

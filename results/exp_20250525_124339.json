@@ -1,0 +1,13 @@
+{
+  "davidson_offensive": {
+    "GroNLP/hateBERT": {
+      "eval_loss": 0.21946212649345398,
+      "eval_accuracy": 0.9184990921928586,
+      "eval_f1": 0.896415576555792,
+      "eval_runtime": 13.5213,
+      "eval_samples_per_second": 366.605,
+      "eval_steps_per_second": 22.927,
+      "epoch": 3.0
+    }
+  }
+}
