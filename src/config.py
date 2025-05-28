@@ -1,11 +1,12 @@
+#Uncomment the model and the Dataset you want to use
+
 MODELS = {
      "huawei-noah/TinyBERT_General_4L_312D",  
     # "distilbert-base-uncased",
     # "distilroberta-base",  
     # "google/electra-small-discriminator",  
-    # "albert-tiny"
-
-    # "roberta-base"  
+    # "roberta-base" 
+     
     # "GroNLP/hateBERT"
 }
 
@@ -100,14 +101,9 @@ TRAINING_PRESETS = {
     },
     "special": {
         "batch_size": 32,
-        "epochs": 3,
+        "epochs": 4,
         "max_length": 512,
         "learning_rate": 2e-5,
         "weight_decay": 0.01,
-        #"metric_for_best_model": "eval_f1",
-        #"lr_scheduler_type": "linear",  # or "cosine"
-        #"warmup_ratio": 0.1,
-        # "early_stopping_patience": 1,
-        # "metric": "f1_macro"
     },
 }

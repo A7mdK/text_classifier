@@ -6,7 +6,6 @@ from transformers import (
     TrainingArguments
 )
 from collections import Counter
-import pandas as pd
 from datasets import DatasetDict
 import numpy as np
 from sklearn.metrics import accuracy_score, f1_score
@@ -64,8 +63,6 @@ class ModelTrainer:
         **training_kwargs
     ) -> dict:
         """Complete training pipeline"""
-
-        # Initialize model and tokenizer
         tokenizer = AutoTokenizer.from_pretrained(model_name)
         model = AutoModelForSequenceClassification.from_pretrained(
             model_name,
@@ -75,7 +72,6 @@ class ModelTrainer:
 
         max_length = training_kwargs.pop("max_length", 128)
 
-        # Tokenization
         def tokenize(batch):
             return tokenizer(
                 batch["text"],
@@ -105,12 +101,14 @@ class ModelTrainer:
             weight_decay=training_kwargs.pop("weight_decay", 0.01),
             load_best_model_at_end=True,
             report_to="none",
-            optim="adamw_torch",  # Better optimizer
-            fp16=torch.cuda.is_available(),  # Auto GPU
-            **training_kwargs,
-
+            optim="adamw_torch",
+            fp16=torch.cuda.is_available(),  
+            
+            
             metric_for_best_model="eval_f1",
             greater_is_better=True,
+
+            **training_kwargs,
         )
 
         trainer = Trainer(

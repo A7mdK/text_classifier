@@ -1,0 +1,13 @@
+{
+  "davidson_offensive": {
+    "distilbert-base-uncased": {
+      "eval_loss": 0.23491263389587402,
+      "eval_accuracy": 0.9178938874319145,
+      "eval_f1": 0.9153748917199537,
+      "eval_runtime": 16.7993,
+      "eval_samples_per_second": 295.072,
+      "eval_steps_per_second": 18.453,
+      "epoch": 4.0
+    }
+  }
+}

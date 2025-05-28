@@ -1,0 +1,13 @@
+{
+  "davidson_offensive": {
+    "huawei-noah/TinyBERT_General_4L_312D": {
+      "eval_loss": 0.25692230463027954,
+      "eval_accuracy": 0.9136574541053056,
+      "eval_f1": 0.9016193681387078,
+      "eval_runtime": 19.2388,
+      "eval_samples_per_second": 257.657,
+      "eval_steps_per_second": 16.113,
+      "epoch": 5.0
+    }
+  }
+}

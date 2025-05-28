@@ -41,4 +41,4 @@ def run_experiment(preset: str = "default", experiment_name: str = None, inspect
     return results
 
 if __name__ == "__main__":
-    run_experiment(preset="special", inspect=False)
+    run_experiment(preset="special" , inspect=False) #high_performance

@@ -1,7 +1,0 @@
-{
-  "davidson_offensive": {
-    "huawei-noah/TinyBERT_General_4L_312D": {
-      "error": "transformers.training_args.TrainingArguments() got multiple values for keyword argument 'weight_decay'"
-    }
-  }
-}
